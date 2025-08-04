@@ -1,40 +1,105 @@
-E-Commerce Data Analysis Project
-This project involves Exploratory Data Analysis (EDA) on an E-Commerce company's dataset to extract meaningful business insights and support data-driven decision-making.
+# 🛒 E-Commerce Data Analysis – Customer Behavior & Sales Insights
 
-🧠 Objective
-To analyze various aspects of customer orders, product performance, and sales behavior using Python libraries and help the business identify trends, patterns, and opportunities for improvement.
+This project analyzes an e-commerce company’s sales data to uncover patterns in customer behavior, product demand, and operational efficiency. The goal is to assist business decision-making through data-driven insights using Python.
 
-🛠️ Tools & Technologies
-Python
+---
 
-Pandas & NumPy for data manipulation
+## 📌 Objective
 
-Matplotlib & Seaborn for data visualization
+- Understand customer buying trends across geography and time
+- Analyze sales performance and revenue drivers
+- Identify issues related to order delays and shipping bottlenecks
+- Provide actionable business recommendations
 
-Jupyter Notebook
+---
 
-📌 Key Insights & Outcomes
-Identified the most and least ordered products and categories.
+## 🗃️ Dataset Overview
 
-Analyzed sales distribution across different customer segments.
+The dataset includes records of customer orders placed through an online store. Each row contains information such as:
+- Order ID, Product, Category
+- Customer location
+- Order date & ship date
+- Sales, profit, discount, shipping cost
+- Order priority, region, segment
 
-Explored trends in revenue generation by product, time, and location.
+---
 
-Visualized customer purchase behavior to highlight retention opportunities.
+## ✅ Key Analysis Performed
 
-Derived actionable insights for marketing and inventory planning.
+- Data cleaning and type conversions
+- Exploratory Data Analysis (EDA)
+- Grouped aggregation (sales by region/category)
+- Time-series analysis of monthly revenue
+- Shipping delay vs. profit analysis
+- Customer segmentation and top-buyer identification
+- Visualizations using Seaborn and Matplotlib
 
-📁 Files Included
-E-Commerce_Project_Student_File.ipynb: The main notebook containing step-by-step EDA.
+---
 
-SomdebPramanik_March18_2023.ipynb: Instructor-evaluated version / solution with enhancements and corrections.
+## 📊 Visual Insights
 
-✅ Skills Demonstrated
-Data cleaning and preprocessing
+- Heatmaps showing region-wise sales and profit
+- Bar charts of most profitable product categories
+- Time plots of order volume and revenue trends
+- Boxplots comparing shipping delays by region
+- Pie chart of order segments and priority distribution
 
-Grouping, filtering, and aggregating data
+---
 
-Insightful visual storytelling
+## 🧰 Tools & Technologies Used
 
-Business understanding and analytical thinking
+| Tool         | Usage                                 |
+|--------------|----------------------------------------|
+| Python       | Core language                          |
+| Pandas       | Data manipulation                      |
+| NumPy        | Numerical computing                    |
+| Matplotlib   | Plotting and visualization             |
+| Seaborn      | Advanced statistical visualizations    |
+| JupyterLab   | Interactive development environment    |
+
+---
+
+## 💡 Key Findings
+
+- The West and Central regions generate the most profit
+- Technology and Office Supplies are top-performing categories
+- Late shipping correlates with lower profitability
+- Discounts beyond a threshold significantly reduce profits
+- Specific states consistently underperform in revenue generation
+
+---
+
+## 📁 Files in the Repo
+
+| File Name                         | Description                        |
+|----------------------------------|------------------------------------|
+| `ecommerce_data_analysis.ipynb`  | Main notebook with all analysis    |
+| `ecommerce_dataset.csv`          | Dataset (if available publicly)    |
+| `images/`                        | Exported plots (optional)          |
+| `README.md`                      | Project documentation              |
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Real-world data cleaning and exploration
+- Business-focused EDA
+- Insight storytelling via plots
+- Pythonic data analysis workflow
+
+---
+
+## ✍️ Author
+
+**Somdeb Pramanik**  
+PGP – Data Science & Business Analytics  
+📧 spramanik10@gmail.com  
+🔗 [Tableau Public](https://public.tableau.com/app/profile/somdeb.pramanik/vizzes)  
+🔗 [LinkedIn](https://www.linkedin.com/in/somdeb-pramanik/)
+
+---
+
+## 📌 License
+
+This project is for educational and portfolio purposes only.
 
